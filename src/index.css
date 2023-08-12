@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EDF0F5;
+}
+
+.login{
+        background-image: url("./assets//bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+/* default styling. Nothing to do with freexing first row and column */
+main {display: flex;}
+main > * {border: 1px solid;}
+table {border-collapse: collapse; font-family: helvetica}
+td, th {border:  1px solid;
+      padding: 10px;
+      /* min-width: 200px; */
+      box-sizing: border-box;
+      text-align: left;
+}
+/* .table-container {
+  position: relative;
+  max-height:  300px;
+  width: 500px;
+  overflow: scroll;
+} */
+
+.tableHeading {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.tableContent {
+    min-width: 244px;
+    max-width: 244px;
+    width: 244px;
+}
+
+/* thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+tfoot {
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: 2;
+} */
+
+/* tfoot td {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+} */
+
+/* MAKE LEFT COLUMN FIXEZ */
+/* tr > :first-child {
+  position: -webkit-sticky;
+  position: sticky; 
+  background: hsl(180, 50%, 70%);
+  left: 0; 
+} */
+/* don't do this */
+/* tr > :first-child {
+  box-shadow: inset 0px 1px black;
+} */
+
+
+
