@@ -4,7 +4,7 @@ const user = JSON.parse(localStorage.getItem('user'));
 
 export const userReportApi = createApi({
     reducerPath: "userReportApi",
-    baseQuery: fetchBaseQuery({baseUrl: "http://localhost:8000"}),
+    baseQuery: fetchBaseQuery({baseUrl: "https://mabruuk-api.vercel.app"}),
     tagTypes: ['usersReport'],
     endpoints: (builder) => ({
 
