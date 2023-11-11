@@ -3,7 +3,7 @@ import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 const user = JSON.parse(localStorage.getItem("user"));
 export const eventApi = createApi({
     reducerPath: "eventApi",
-    baseQuery: fetchBaseQuery({baseUrl: "http://localhost:8000/events"}),
+    baseQuery: fetchBaseQuery({baseUrl: "https://mabruuk-api.vercel.app/events"}),
     tagTypes: ['Events'],
 
     endpoints: (build) => ({
